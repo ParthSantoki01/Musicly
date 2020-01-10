@@ -1,7 +1,7 @@
 
 h1{
       font-size: 56px;
-      margin-top: 50px;
+      padding-top: 50px;
       color: antiquewhite;
       font-family: 'Aclonica';
       animation-name: slide;
@@ -67,8 +67,7 @@ h1{
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 80vh;
-      
+      height: 65vh;      
 }
 #heads h1{
       font-size: 200px;
@@ -85,12 +84,15 @@ h1{
 @media (max-width: 1100px) {
       .name{font-size: 30px;}
 }
+/* @media screen and (max-height: 500px){
+      #btns{margin-top: -40%;}
+} */
 @media (max-width: 800px) {
       .name{font-size: 28px;}
       h1{font-size: 45px;}
       #open{font-size : 28px}
       #heads h1{font-size: 150px;}
-      #btns{margin-top: -20%;}
+      /* #btns{margin-top: -20%;} */
 }
 @media (max-width: 600px) {
       .flexbox{flex: 100%;max-width: 100%;}
@@ -98,7 +100,7 @@ h1{
       .name{font-size: 30px;}
       #open{font-size: 26px;}
       #heads h1{font-size: 100px;}
-      #btns{margin-top: -30%;}
+      /* #btns{margin-top: -30%;} */
 }
 @media (max-width: 420px) {
       .flexbox{flex: 100%;max-width: 100%;}
@@ -106,12 +108,12 @@ h1{
       h1{font-size: 36px;}
       #open{font-size: 24px;}
       #heads h1{font-size: 80px;}
-      #btns{margin-top: -50%;}
+      /* #btns{margin-top: -50%;} */
 }
 @media (max-width: 400px){
       h1{margin-top: 25px;}  
       #heads h1{font-size: 75px;}
-      #btns{margin-top: -70%;} 
+      /* #btns{margin-top: -70%;}  */
 }
 @media screen and (max-width: 250px){
       body{display: none;}
